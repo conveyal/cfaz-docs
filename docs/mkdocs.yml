@@ -1,0 +1,13 @@
+site_name: CarFreeAtoZ Docs
+site_url: http://cfaz-docs.readthedocs.io
+repo_url: https://github.com/conveyal/cfaz-docs
+docs_dir: ../docs
+site_dir: ../target/mkdocs
+theme: readthedocs
+extra_css: [style.css]
+
+pages:
+- Home: 'index.md'
+- API Documentation:
+    - 'Planning API': 'plan-api.md'
+    - 'GTFS API': 'gtfs-api.md'
