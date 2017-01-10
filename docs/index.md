@@ -1,6 +1,6 @@
 # CarFreeAtoZ Administrator and API Documentation
 
-![screenshot](img/public-portal.png)
+![screenshot](img/screenshot.png)
 
 The following documentation is available (see full table of contents at left):
 
