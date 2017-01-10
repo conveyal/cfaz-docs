@@ -5,6 +5,11 @@ The CarFreeAtoZ API is located at [http://www.carfreeatoz.com/api](http://www.ca
 
 ### **/plan** (GET)
 
+The /plan endpoint is used for retrieving commute profiles for a point-to-point profile trip.
+
+Sample request: [http://www.carfreeatoz.com/api/plan?accessModes=WALK%2CBICYCLE%2CBICYCLE_RENT%2CCAR_PARK&bikeSafe=1000&bikeSpeed=3.57632&date=2017-01-09&directModes=WALK%2CBICYCLE%2CBICYCLE_RENT%2CCAR&egressModes=WALK%2CBICYCLE_RENT&endTime=9%3A00&from=38.914319%2C-77.021102&maxBikeTime=20&maxWalkTime=30&maxCarTime=45&startTime=7%3A00&to=38.889637%2C-77.086272&limit=2&transitModes=BUS%2CTRAINISH&walkSpeed=1.34112](http://www.carfreeatoz.com/api/plan?accessModes=WALK%2CBICYCLE%2CBICYCLE_RENT%2CCAR_PARK&bikeSafe=1000&bikeSpeed=3.57632&date=2017-01-09&directModes=WALK%2CBICYCLE%2CBICYCLE_RENT%2CCAR&egressModes=WALK%2CBICYCLE_RENT&endTime=9%3A00&from=38.914319%2C-77.021102&maxBikeTime=20&maxWalkTime=30&maxCarTime=45&startTime=7%3A00&to=38.889637%2C-77.086272&limit=2&transitModes=BUS%2CTRAINISH&walkSpeed=1.34112)
+
+
 #### Query Parameters
 
 | Parameter | Type | Notes | Example |
